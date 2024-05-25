@@ -59,7 +59,7 @@ System.out.println("El numero ingresado es cero");
         while(resultado<numMax){
             resultado+=1;
             System.out.println(resultado);
-        }*/
+        }*/ /*
 EjercicioWhile3JoseRodriguez Ejercicio7=new EjercicioWhile3JoseRodriguez("Ejercicio7");
 System.out.println("Ingrese un numero");
 int num2 = scanner.nextInt();
@@ -71,6 +71,13 @@ while(num2>=0){
     int resultado = Ejercicio7.a(0,num2);
 resultado=num1+num2;
     System.out.println("La suma de los numeros es: " + resultado);
-}
+}*/
+        EjercicioWhile4JoseRodriguez Ejercicio8=new EjercicioWhile4JoseRodriguez("Ejercicio4");
+        System.out.println("Ingrese un numero");
+        int num2 = scanner.nextInt();
+        int resultado = Ejercicio8.z(0,num2);
+        while (num2>0){;
+            num2-=1;
+        }
     }
 }
