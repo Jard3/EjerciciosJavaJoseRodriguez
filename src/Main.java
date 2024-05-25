@@ -91,9 +91,14 @@ System.out.println("Ingrese un numero");
 int numer = scanner.nextInt();
 int numero = Ejercicio10.x(numer);
 */
+        /*
         EjercicioFor3JoseRodriguez Ejercicio11=new EjercicioFor3JoseRodriguez("Ejercicio 11");
 System.out.println("Ingrese un numero");
 int nume = scanner.nextInt();
-int numero2 = Ejercicio11.y(nume,0);
+int numero2 = Ejercicio11.y(nume,0);*/
+        EjercicioFor4JoseRodriguez Ejercicio12=new EjercicioFor4JoseRodriguez("Ejercicio12");
+System.out.println("Ingrese un numero");
+int num = scanner.nextInt();
+int numero2 = Ejercicio12.f(num,1);
     }
 }
