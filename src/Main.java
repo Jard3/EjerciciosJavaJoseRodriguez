@@ -37,12 +37,18 @@ System.out.println("El numero ingresado es cero");
         else if (resultado ==1) {System.out.println("El numero más grande es: " + num2);}
         else{System.out.println("El numero más grande es: " + num3);}
         */
-
+/*
         EjercicioIf4JoseRodriguez Ejercicio4=new EjercicioIf4JoseRodriguez("Ejercicio4");
         System.out.println("Ingrese un año");
         int año = scanner.nextInt();
         int resultado = Ejercicio4.a(año);
         if (resultado == 0){System.out.println("El año ingresado es bisiesto");}
-        else{System.out.println("El año ingresado no es bisiesto");}
+        else{System.out.println("El año ingresado no es bisiesto");}*/
+        EjercicioWhileJoseRodriguez Ejercicio5=new EjercicioWhileJoseRodriguez("Ejercicio5");
+        int resultado=Ejercicio5.i(0);
+        while(resultado<20){
+            resultado+=1;
+            System.out.println(resultado);
+        }
     }
 }
