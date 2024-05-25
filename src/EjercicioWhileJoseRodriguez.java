@@ -10,4 +10,9 @@ public class EjercicioWhileJoseRodriguez {
             contador+=1;
         }
         return resultado;}
-}
+    }
+
+
+
+
+

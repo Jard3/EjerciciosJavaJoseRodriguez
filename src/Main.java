@@ -44,9 +44,18 @@ System.out.println("El numero ingresado es cero");
         int resultado = Ejercicio4.a(año);
         if (resultado == 0){System.out.println("El año ingresado es bisiesto");}
         else{System.out.println("El año ingresado no es bisiesto");}*/
+        /*
         EjercicioWhileJoseRodriguez Ejercicio5=new EjercicioWhileJoseRodriguez("Ejercicio5");
         int resultado=Ejercicio5.i(0);
         while(resultado<20){
+            resultado+=1;
+            System.out.println(resultado);
+        }*/
+        EjercicioWhile2JoseRodriguez Ejercicio6=new EjercicioWhile2JoseRodriguez("Ejercicio6");
+        System.out.println("Ingrese un número");
+        int numMax = scanner.nextInt();
+        int resultado = Ejercicio6.c(0,numMax);
+        while(resultado<numMax){
             resultado+=1;
             System.out.println(resultado);
         }
