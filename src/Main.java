@@ -85,10 +85,15 @@ resultado=num1+num2;
         for (int i=0; i<20; i+=2) {
             System.out.println(num+=2);
         }*/
+        /*
         EjercicioFor2JoseRodriguez Ejercicio10=new EjercicioFor2JoseRodriguez("Ejercicio 10");
 System.out.println("Ingrese un numero");
 int numer = scanner.nextInt();
 int numero = Ejercicio10.x(numer);
-
+*/
+        EjercicioFor3JoseRodriguez Ejercicio11=new EjercicioFor3JoseRodriguez("Ejercicio 11");
+System.out.println("Ingrese un numero");
+int nume = scanner.nextInt();
+int numero2 = Ejercicio11.y(nume,0);
     }
 }
