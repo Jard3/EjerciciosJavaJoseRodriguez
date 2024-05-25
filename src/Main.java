@@ -24,7 +24,7 @@ System.out.println("El numero ingresado es cero");
         if (resultado == 1){System.out.println("El numero ingresado es impar ");}
         else{System.out.println("El numero ingresado es par ");}
 
-         */
+         */ /*
         EjercicioIf3JoseRodriguez Ejercicio3=new EjercicioIf3JoseRodriguez("Ejercicio3");
         System.out.println("Ingrese el primer numero: ");
         int num1 = scanner.nextInt();
@@ -36,5 +36,13 @@ System.out.println("El numero ingresado es cero");
         if (resultado == 0) {System.out.println("El numero más grande es: " + num1);}
         else if (resultado ==1) {System.out.println("El numero más grande es: " + num2);}
         else{System.out.println("El numero más grande es: " + num3);}
+        */
+
+        EjercicioIf4JoseRodriguez Ejercicio4=new EjercicioIf4JoseRodriguez("Ejercicio4");
+        System.out.println("Ingrese un año");
+        int año = scanner.nextInt();
+        int resultado = Ejercicio4.a(año);
+        if (resultado == 0){System.out.println("El año ingresado es bisiesto");}
+        else{System.out.println("El año ingresado no es bisiesto");}
     }
 }
