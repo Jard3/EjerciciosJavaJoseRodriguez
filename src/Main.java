@@ -51,6 +51,7 @@ System.out.println("El numero ingresado es cero");
             resultado+=1;
             System.out.println(resultado);
         }*/
+        /*
         EjercicioWhile2JoseRodriguez Ejercicio6=new EjercicioWhile2JoseRodriguez("Ejercicio6");
         System.out.println("Ingrese un número");
         int numMax = scanner.nextInt();
@@ -58,6 +59,18 @@ System.out.println("El numero ingresado es cero");
         while(resultado<numMax){
             resultado+=1;
             System.out.println(resultado);
-        }
+        }*/
+EjercicioWhile3JoseRodriguez Ejercicio7=new EjercicioWhile3JoseRodriguez("Ejercicio7");
+System.out.println("Ingrese un numero");
+int num2 = scanner.nextInt();
+
+        int num1=0;
+while(num2>=0){
+    System.out.println("Ingrese un numero");
+    num2 = scanner.nextInt();
+    int resultado = Ejercicio7.a(0,num2);
+resultado=num1+num2;
+    System.out.println("La suma de los numeros es: " + resultado);
+}
     }
 }
