@@ -79,10 +79,16 @@ resultado=num1+num2;
         while (num2>0){;
             num2-=1;
         }*/
+        /*
         EjercicioForJoseRodriguez Ejercicio9=new EjercicioForJoseRodriguez("Ejercicio 9");
         int num = Ejercicio9.p(0);
         for (int i=0; i<20; i+=2) {
             System.out.println(num+=2);
-        }
+        }*/
+        EjercicioFor2JoseRodriguez Ejercicio10=new EjercicioFor2JoseRodriguez("Ejercicio 10");
+System.out.println("Ingrese un numero");
+int numer = scanner.nextInt();
+int numero = Ejercicio10.x(numer);
+
     }
 }
