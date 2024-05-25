@@ -71,13 +71,18 @@ while(num2>=0){
     int resultado = Ejercicio7.a(0,num2);
 resultado=num1+num2;
     System.out.println("La suma de los numeros es: " + resultado);
-}*/
+}*//*
         EjercicioWhile4JoseRodriguez Ejercicio8=new EjercicioWhile4JoseRodriguez("Ejercicio4");
         System.out.println("Ingrese un numero");
         int num2 = scanner.nextInt();
         int resultado = Ejercicio8.z(0,num2);
         while (num2>0){;
             num2-=1;
+        }*/
+        EjercicioForJoseRodriguez Ejercicio9=new EjercicioForJoseRodriguez("Ejercicio 9");
+        int num = Ejercicio9.p(0);
+        for (int i=0; i<20; i+=2) {
+            System.out.println(num+=2);
         }
     }
 }
